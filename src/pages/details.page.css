@@ -1,0 +1,96 @@
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.align {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.top {
+  border-radius: 16px 16px 0 0;
+}
+
+.bottom {
+  border-radius: 0 0 16px 16px;
+}
+
+.nameRow {
+  border: 5px solid white;
+  border-radius: 8px 8px 0 0;
+  background-color: rgb(174, 174, 174);
+}
+
+.lightMode {
+  background-color: white;
+}
+
+.darkMode {
+  background-color: black;
+}
+
+.black {
+  color: black;
+}
+
+@media screen and (max-width: 950px) {
+  .containerBlack {
+    width: 100vw !important;
+    border: 2px solid black;
+    background-color: rgba(189, 21, 21, 0.895);
+  }
+
+  .containerWhite {
+    width: 100vw !important;
+    border: 2px solid white;
+    background-color: rgba(189, 21, 21, 0.895);
+  }
+
+  .imageRow {
+    height: 170px;
+    max-width: 80%;
+    margin: 10px auto !important;
+    border: 10px solid white;
+    border-radius: 15px;
+    background-color: gray;
+  }
+
+  .image {
+    margin: auto;
+    width: auto;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .containerBlack {
+    max-width: 35vw !important;
+    border: 2px solid black;
+    background-color: rgba(189, 21, 21, 0.895);
+  }
+
+  .containerWhite {
+    max-width: 35vw !important;
+    border: 2px solid white;
+    background-color: rgba(189, 21, 21, 0.895);
+  }
+
+  .imageRow {
+    height: 250px;
+    max-width: 80%;
+    margin: 10px auto !important;
+    border: 10px solid white;
+    border-radius: 15px;
+    background-color: gray;
+  }
+
+  .image {
+    margin: auto;
+    width: auto;
+    height: 230px;
+  }
+}
